@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import prices from './Price'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App prices={prices}/>
   </React.StrictMode>,
   document.getElementById('root')
 );
